@@ -16,7 +16,7 @@ ChromeOptions co = new ChromeOptions();
 co.addArguments("--remote-allow-origins=*");
 driver = new ChromeDriver(co);
 driver.manage().window().maximize();
-driver.navigate().to("https://www.amazon.in/Apple-iPad-Air-10-9-inch-27-69-Wi-Fi/dp/B09V471196?ref_=Oct_DLandingS_D_f4cff20a_63&th=1");
+driver.navigate().to("https://www.amazon.in/OnePlus-Display-Refresh-Multiple-Midnight/dp/B0BD92GDQH/ref=sr_1_26?crid=Z82CF4R3TO1J&keywords=smart%2Bwatch&qid=1681296071&sprefix=s%2Caps%2C630&sr=8-26&th=1");
 WebElement addtocart = driver.findElement(By.id("add-to-cart-button"));
 addtocart.click();
 WebElement check = driver.findElement(By.xpath("//*[@class=\"a-button-input\"]"));
